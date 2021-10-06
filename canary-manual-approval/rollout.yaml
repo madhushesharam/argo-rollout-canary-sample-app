@@ -37,7 +37,7 @@ spec:
     spec:
       containers:
       - name: golang-sample-app-container
-        image: kostiscodefresh/argo-rollouts-canary-sample-app::8c67194 
+        image: kostiscodefresh/argo-rollouts-canary-sample-app:8c67194 
         ports:
         - name: http
           containerPort: 8080
